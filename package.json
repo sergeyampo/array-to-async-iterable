@@ -1,0 +1,26 @@
+{
+  "name": "array-to-async-iterable",
+  "version": "0.0.1",
+  "description": "This package converts Iterable array to AsyncIterable contract. Package provides several ways to unblock event-loop.",
+  "main": "index",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyampo/array-to-async-iterable.git"
+  },
+  "author": "sergeyampo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeyampo/array-to-async-iterable/issues"
+  },
+  "homepage": "https://github.com/sergeyampo/array-to-async-iterable#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
