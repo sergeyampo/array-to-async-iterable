@@ -1,6 +1,6 @@
 {
   "name": "array-to-async-iterable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package converts Iterable array to AsyncIterable contract. Package provides several ways to unblock event-loop.",
   "main": "index",
   "exports": {
