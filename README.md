@@ -1,3 +1,5 @@
+![Workflow](https://github.com/sergeyampo/array-to-async-iterable/actions/workflows/npm-publish.yml/badge.svg)
+
 # array-to-async-iterable
 This tiny package with zero-dependencies, typescript .d.ts coverage, full ESM and CJS compatibility helps you to iterate over large collections in **Node.js** truly asynchronously.
 
@@ -55,4 +57,4 @@ It's recommended for an array to be large and have simple operations in a loop.
 You won't get much profit using small arrays for extremely long operations.
 
 
-Inspired by @metarhia.
+Inspired by [@metarhia](https://github.com/HowProgrammingWorks).

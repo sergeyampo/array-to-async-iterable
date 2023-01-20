@@ -14,6 +14,16 @@
     "type": "git",
     "url": "git+https://github.com/sergeyampo/array-to-async-iterable.git"
   },
+  "keywords": [
+    "array-to-async-iterable",
+    "for await array",
+    "async iterator array",
+    "AsyncIterable",
+    "AsyncTimeIterator",
+    "nodejs async array",
+    "nodejs async iterator",
+    "nodejs array to async iterable"
+  ],
   "author": "sergeyampo",
   "license": "MIT",
   "bugs": {
