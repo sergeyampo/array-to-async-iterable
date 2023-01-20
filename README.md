@@ -35,12 +35,16 @@ describe(`Simple for-await-of loop`, async () => {
 ```
 Event loop couldn't execute timers and go to the next phase until all of microtasks were completed. 
 
+# Install
+```bash
+npm i array-to-async-iterable
+```
 
 # How to use it
 It's incredibly easy to iterate truly asynchronously:
 ```js
 //import { AsyncTimeIterator } from 'array-to-async-iterable' for ESM or
-//const { AsyncTimeIterator } = require('array-to-async-iterable');
+//const { AsyncTimeIterator } = require('array-to-async-iterable'); for CJS
 
 for await(const element of new AsyncTimeIterator(array)){
     //...

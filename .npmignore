@@ -3,3 +3,4 @@ node_modules
 test
 .npmignore
 package-lock.json
+.github
